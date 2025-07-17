@@ -248,11 +248,11 @@ backend:
         other: 找不到報告。
     tag:
       already_exist:
-        other: Tag already exists.
+        other: 標籤已存在。
       not_found:
         other: 找不到標籤。
       recommend_tag_not_found:
-        other: Recommend tag is not exist.
+        other: 推薦標籤不存在。
       recommend_tag_enter:
         other: 請輸入至少一個必需的標籤。
       not_contain_synonym_tags:
@@ -785,7 +785,7 @@ backend:
     default_badge_groups:
       getting_started:
         name:
-          other: Getting Started
+          other: 入門
       community:
         name:
           other: Community
@@ -1003,7 +1003,7 @@ ui:
         revision:
           label: Revision
         edit_summary:
-          label: Edit summary
+          label: 編輯摘要
           placeholder: >-
             Briefly explain your changes (corrected spelling, fixed grammar, improved formatting)
     btn_cancel: 取消
@@ -1092,7 +1092,7 @@ ui:
           feedback:
             characters: 內容必須至少6個字元長度。
         edit_summary:
-          label: Edit summary
+          label: 編輯摘要
           placeholder: >-
             簡單描述更改原因 (錯別字、文字表達、格式等等)
     btn_save_edits: 儲存更改
@@ -1139,7 +1139,7 @@ ui:
           msg:
             empty: 回答內容不能為空
         edit_summary:
-          label: Edit summary
+          label: 編輯摘要
           placeholder: >-
             簡單描述更改原因 (錯別字、文字表達、格式等等)
     btn_post_question: 提出問題
@@ -1158,14 +1158,14 @@ ui:
       question: 問題
       tag: 標籤
       user: 用戶
-      badges: Badges
+      badges: 徽章
       profile: 用戶主頁
       setting: 帳號設置
       logout: 登出
       admin: 後台管理
       review: 審查
-      bookmark: Bookmarks
-      moderation: Moderation
+      bookmark: 書籤
+      moderation: 適配
     search:
       placeholder: 搜尋
   footer:
@@ -1190,8 +1190,8 @@ ui:
     msg:
       empty: 不能為空
     resend_email:
-      url_label: Are you sure you want to resend the activation email?
-      url_text: You can also give the activation link above to the user.
+      url_label: 您確定要重新傳送啟動電子郵件嗎？
+      url_text: 您還可以向用戶提供上面的激活連結。
   login:
     login_to_continue: 登入以繼續
     info_sign: 沒有帳戶？<1>註冊</1>
@@ -1202,8 +1202,8 @@ ui:
       label: 名稱
       msg:
         empty: 名稱不能為空
-        range: Name must be between 2 to 30 characters in length.
-        character: 'Must use the character set "a-z", "A-Z", "0-9", " - . _"'
+        range: 名稱長度必須介於 2 至 30 個字元之間。
+        character: '必須使用字元集 "a-z", "A-Z", "0-9", " - . _"'
     email:
       label: 郵箱
       msg:
@@ -1232,19 +1232,19 @@ ui:
       msg:
         empty: 郵箱不能為空
   oauth:
-    connect: Connect with {{ auth_name }}
-    remove: Remove {{ auth_name }}
+    connect: 連接 {{ auth_name }}
+    remove: 消除 {{ auth_name }}
   oauth_bind_email:
-    subtitle: Add a recovery email to your account.
-    btn_update: Update email address
+    subtitle: 在您的帳戶中新增恢復電子郵件。
+    btn_update: 更新電子郵件地址
     email:
-      label: Email
+      label: 電子郵件
       msg:
-        empty: Email cannot be empty.
-    modal_title: Email already existes.
-    modal_content: This email address already registered. Are you sure you want to connect to the existing account?
-    modal_cancel: Change email
-    modal_confirm: Connect to the existing account
+        empty: 電子郵件不能為空。
+    modal_title: 電子郵件已存在。
+    modal_content: 此電子郵件地址已註冊。您確定要連接到現有帳戶嗎？
+    modal_cancel: 更改電子郵件
+    modal_confirm: 連接到現有帳戶
   password_reset:
     page_title: 密碼重置
     btn_name: 重置我的密碼
@@ -1260,10 +1260,10 @@ ui:
         length: 密碼長度在8-32個字元之間
         different: 兩次輸入密碼不一致
     password_confirm:
-      label: Confirm new password
+      label: 確認新密碼
   settings:
     page_title: 設置
-    goto_modify: Go to modify
+    goto_modify: 前往修改
     nav:
       profile: 我的資料
       notification: 通知
@@ -1273,25 +1273,25 @@ ui:
       heading: 個人資料
       btn_name: 保存
       display_name:
-        label: Display name
+        label: 顯示名稱
         msg: 顯示名稱不能為空。
-        msg_range: Display name must be 2-30 characters in length.
+        msg_range: 顯示名稱的長度必須為 2-30 個字元。
       username:
         label: 用戶名
         caption: 用戶之間可以通過 "@用戶名" 進行交互。
         msg: 用戶名不能為空
-        msg_range: Username must be 2-30 characters in length.
+        msg_range: 使用者名稱長度必須為 2-30 個字元。
         character: '必須由 "a-z", "0-9", " - . _" 組成'
       avatar:
-        label: Profile image
+        label: 個人資料圖片
         gravatar: 頭像
-        gravatar_text: You can change image on
+        gravatar_text: 您可以更改圖像
         custom: 自定義
         custom_text: 您可以上傳您的圖片。
         default: 系統
         msg: 請上傳頭像
       bio:
-        label: About me
+        label: 關於我
       website:
         label: 網站
         placeholder: "https://example.com"
@@ -1301,16 +1301,16 @@ ui:
         placeholder: "城市, 國家"
     notification:
       heading: 通知
-      turn_on: Turn on
+      turn_on: 打開
       inbox:
-        label: Email notifications
-        description: Answers to your questions, comments, invites, and more.
+        label: 電子郵件通知
+        description: 回答您的問題、評論、邀請函等。
       all_new_question:
-        label: All new questions
-        description: Get notified of all new questions. Up to 50 questions per week.
+        label: 所有新問題
+        description: 取得所有新問題的通知。每週最多 50 個問題。
       all_new_question_for_following_tags:
-        label: All new questions for following tags
-        description: Get notified of new questions for following tags.
+        label: 針對以下標籤的所有新問題
+        description: 取得有關以下標籤的新問題的通知。
     account:
       heading: 帳號
       change_email_btn: 更改郵箱
@@ -1318,73 +1318,73 @@ ui:
       change_email_info: >-
         我們已經寄出一封郵件至此電子郵件地址，請遵照說明進行確認。
       email:
-        label: Email
+        label: 電子郵件
       new_email:
-        label: New email
-        msg: New email cannot be empty.
+        label: 新郵件
+        msg: 新郵箱不能為空。
       pass:
-        label: Current password
-        msg: Password cannot be empty.
+        label: 目前密碼
+        msg: 密碼不能為空。
       password_title: 密碼
       current_pass:
-        label: Current password
+        label: 目前密碼
         msg:
-          empty: Current password cannot be empty.
+          empty: 目前密碼不能為空。
           length: 密碼長度必須在 8 至 32 之間
           different: 兩次輸入的密碼不匹配
       new_pass:
-        label: New password
+        label: 新密碼
       pass_confirm:
-        label: Confirm new password
+        label: 確認新密碼
     interface:
       heading: 介面
       lang:
-        label: Interface language
+        label: 介面語言
         text: 設定使用者介面語言，在重新整裡頁面後生效。
     my_logins:
-      title: My logins
-      label: Log in or sign up on this site using these accounts.
-      modal_title: Remove login
-      modal_content: Are you sure you want to remove this login from your account?
-      modal_confirm_btn: Remove
-      remove_success: Removed successfully
+      title: 我的登入訊息
+      label: 使用這些帳戶登入或註冊此網站。
+      modal_title: 刪除登入
+      modal_content: 您確定要從您的帳戶中刪除此登入資訊嗎？
+      modal_confirm_btn: 移除
+      remove_success: 已成功移除
   toast:
     update: 更新成功
     update_password: 更改密碼成功。
     flag_success: 感謝您的標記
     forbidden_operate_self: 禁止自己操作
     review: 您的修訂將在審核通過後顯示。
-    sent_success: Sent successfully
+    sent_success: 發送成功
   related_question:
     title: 相關問題
     answers: 個回答
   linked_question:
-    title: Linked Questions
-    description: Questions linked to
-    no_linked_question: No questions linked from this question.
+    title: 相關問題
+    description: 相關問題
+    no_linked_question: 此問題沒有連結任何問題。
   invite_to_answer:
-    title: People Asked
-    desc: Invite people who you think might know the answer.
-    invite: Invite to answer
-    add: Add people
-    search: Search people
+    title: 人們問
+    desc: 邀請您認為可能知道答案的人。
+    invite: 邀請回答
+    add: 新增人員
+    search: 搜尋人員
   question_detail:
-    action: Action
+    action: 行動
     Asked: 提問於
     asked: 提問於
     update: 修改於
     edit: 最後編輯於
-    commented: commented
+    commented: 評論
     Views: 閱讀次數
     Follow: 關注
     Following: 已關注
-    follow_tip: Follow this question to receive notifications
+    follow_tip: 關注此問題即可接收通知
     answered: 回答於
     closed_in: 關閉於
     show_exist: 顯示現有問題。
-    useful: Useful
-    question_useful: It is useful and clear
-    question_un_useful: It is unclear or not useful
+    useful: 有用
+    question_useful: 有用且清晰
+    question_un_useful: 不清楚或無用
     question_bookmark: Bookmark this question
     answer_useful: It is useful
     answer_un_useful: It is not useful
@@ -1397,7 +1397,7 @@ ui:
       btn_accepted: 已被採納
     write_answer:
       title: 你的回答
-      edit_answer: Edit my existing answer
+      edit_answer: 編輯我現有的答案
       btn_name: 提交你的回答
       add_another_answer: 添加另一個答案
       confirm_title: 繼續回答
@@ -1407,27 +1407,27 @@ ui:
       empty: 回答內容不能為空。
       characters: 內容必須至少6個字元長度。
       tips:
-        header_1: Thanks for your answer
-        li1_1: Please be sure to <strong>answer the question</strong>. Provide details and share your research.
-        li1_2: Back up any statements you make with references or personal experience.
-        header_2: But <strong>avoid</strong> ...
-        li2_1: Asking for help, seeking clarification, or responding to other answers.
+        header_1: 謝謝你的回答
+        li1_1: 請務必<strong>回答問題</strong>。提供詳細資訊並分享您的研究成果。
+        li1_2: 用參考資料或個人經驗來支持您所做的任何陳述。
+        header_2: 但<strong>避免</strong>...
+        li2_1: 尋求協助、尋求澄清或回應其他答案。
     reopen:
       confirm_btn: Reopen
       title: 重新打開這個貼文
       content: 確定要重新打開嗎？
     list:
-      confirm_btn: List
-      title: List this post
-      content: Are you sure you want to list?
+      confirm_btn: 清單
+      title: 列出此帖子
+      content: 您確定要列出嗎？
     unlist:
-      confirm_btn: Unlist
-      title: Unlist this post
-      content: Are you sure you want to unlist?
+      confirm_btn: 取消列表
+      title: 取消列出此帖子
+      content: 您確定要取消列出嗎？
     pin:
-      title: Pin this post
-      content: Are you sure you wish to pinned globally? This post will appear at the top of all post lists.
-      confirm_btn: Pin
+      title: 置頂此帖
+      content: 您確定要將其設為全域置頂嗎？此帖子將顯示在所有帖子列表的頂部。
+      confirm_btn: 置頂
   delete:
     title: 刪除此貼
     question: >-
@@ -1436,46 +1436,46 @@ ui:
       <p>我們不建議<strong>刪除被採納的回答</strong>。因為這樣做會使得後來的讀者無法從該回答中獲得幫助。</p>如果刪除過多被採納的貼文，你的帳號將會被禁止回答任何提問。你確定要刪除嗎？
     other: 你確定要刪除？
     tip_answer_deleted: 此回答已被刪除
-    undelete_title: Undelete this post
-    undelete_desc: Are you sure you wish to undelete?
+    undelete_title: 取消刪除此帖子
+    undelete_desc: 您確定要取消刪除嗎？
   btns:
     confirm: 確認
     cancel: 取消
-    edit: Edit
+    edit: 編輯
     save: 儲存
     delete: 刪除
-    undelete: Undelete
-    list: List
-    unlist: Unlist
-    unlisted: Unlisted
+    undelete: 恢復刪除
+    list: 清單
+    unlist: 取消列表
+    unlisted: 未公開
     login: 登入
     signup: 註冊
     logout: 登出
     verify: 驗證
-    create: Create
+    create: 發問
     approve: 核准
     reject: 拒絕
     skip: 略過
-    discard_draft: Discard draft
-    pinned: Pinned
-    all: All
-    question: Question
-    answer: Answer
-    comment: Comment
-    refresh: Refresh
-    resend: Resend
-    deactivate: Deactivate
-    active: Active
-    suspend: Suspend
-    unsuspend: Unsuspend
-    close: Close
-    reopen: Reopen
+    discard_draft: 放棄草稿
+    pinned: 已置頂
+    all: 全部
+    question: 問題
+    answer: 回答
+    comment: 評論
+    refresh: 重新整理
+    resend: 重新發送
+    deactivate: 停用
+    active: 啟用
+    suspend: 暫停
+    unsuspend: 取消暫停
+    close: 關閉
+    reopen: 重新開放
     ok: OK
-    light: Light
+    light: 光
     dark: Dark
-    system_setting: System setting
-    default: Default
-    reset: Reset
+    system_setting: 系統設定
+    default: 預設
+    reset: 重置
     tag: Tag
     post_lowercase: post
     filter: Filter
@@ -1493,7 +1493,7 @@ ui:
     display_below: Display below
     always_display: Always display
     or: or
-    back_sites: Back to sites
+    back_sites: 返回網站
   search:
     title: 搜尋結果
     keywords: 關鍵詞
@@ -1556,9 +1556,9 @@ ui:
     answers: 回答
     newest: 最新的
     active: 活躍的
-    hot: Hot
-    frequent: Frequent
-    recommend: Recommend
+    hot: 熱門
+    frequent: 頻繁
+    recommend: 推薦
     score: 評分
     unanswered: 未回答
     modified: 修改於
@@ -1577,10 +1577,10 @@ ui:
     reputation: 聲望
     comments: 評論
     votes: 得票
-    badges: Badges
+    badges: 徽章
     newest: 最新
     score: 評分
-    edit_profile: Edit profile
+    edit_profile: 編輯個人資料
     visited_x_days: "已造訪 {{ count }} 天"
     viewed: 閱讀次數
     joined: 加入於
@@ -1592,27 +1592,27 @@ ui:
     top_questions: 熱門問題
     stats: 狀態
     list_empty: 沒有找到相關的內容。<br />試試看其他標籤？
-    content_empty: No posts found.
+    content_empty: 未找到任何貼文。
     accepted: 已採納
     answered: 回答於
     asked: 提問於
-    downvoted: downvoted
+    downvoted: 反對一票
     mod_short: MOD
     mod_long: 管理員
     x_reputation: 聲望
     x_votes: 得票
     x_answers: 個回答
     x_questions: 個問題
-    recent_badges: Recent Badges
+    recent_badges: 近期徽章
   install:
-    title: Installation
+    title: 安裝
     next: 下一步
     done: 完成
     config_yaml_error: 無法建立 config.yaml 檔。
     lang:
-      label: Please choose a language
+      label: 請選擇語言
     db_type:
-      label: Database engine
+      label: 資料庫引擎
     db_username:
       label: 用戶名
       placeholder: 根
@@ -1622,19 +1622,19 @@ ui:
       placeholder: root
       msg: 密碼不能為空
     db_host:
-      label: Database host
+      label: 資料庫主機
       placeholder: "db: 3306"
-      msg: Database host cannot be empty.
+      msg: 資料庫主機不能為空。
     db_name:
-      label: Database name
+      label: 資料庫名稱
       placeholder: 回答
-      msg: Database name cannot be empty.
+      msg: 資料庫名稱不能為空。
     db_file:
-      label: Database file
+      label: 資料庫檔案
       placeholder: /data/answer.db
-      msg: Database file cannot be empty.
+      msg: 資料庫檔案不能為空。
     ssl_enabled:
-      label: Enable SSL
+      label: 啟用 SSL
     ssl_enabled_on:
       label: On
     ssl_enabled_off:
@@ -1749,64 +1749,64 @@ ui:
     customize: 自定義
     themes: 主題
     login: 登入
-    privileges: Privileges
-    plugins: Plugins
-    installed_plugins: Installed Plugins
-    apperance: Appearance
-  website_welcome: Welcome to {{site_name}}
+    privileges: 權限
+    plugins: 外掛
+    installed_plugins: 已安裝的插件
+    apperance: 外貌
+  website_welcome: 歡迎來到 {{site_name}}
   user_center:
-    login: Login
-    qrcode_login_tip: Please use {{ agentName }} to scan the QR code and log in.
-    login_failed_email_tip: Login failed, please allow this app to access your email information before try again.
+    login: 登入
+    qrcode_login_tip: 請使用{{ agentName }}掃描二維碼登入。
+    login_failed_email_tip: 登入失敗，請允許此應用程式在存取您的電子郵件資訊後再試一次。
   badges:
     modal:
-      title: Congratulations
-      content: You've earned a new badge.
-      close: Close
-      confirm: View badges
-    title: Badges
-    awarded: Awarded
-    earned_×: Earned ×{{ number }}
-    ×_awarded: "{{ number }} awarded"
-    can_earn_multiple: You can earn this multiple times.
-    earned: Earned
+      title: 恭喜
+      content: 您已獲得一枚新徽章。
+      close: 關閉
+      confirm: 查看徽章
+    title: 徽章
+    awarded: 得獎
+    earned_×: 已賺取 ×{{ number }}
+    ×_awarded: "已授予 {{ number }} 個"
+    can_earn_multiple: 您可以多次獲得此獎勵。
+    earned: 已賺取
   admin:
     admin_header:
       title: 後台管理
     dashboard:
       title: 後台管理
-      welcome: Welcome to Admin!
-      site_statistics: Site statistics
+      welcome: 歡迎來到管理員！
+      site_statistics: 網站統計
       questions: "問題:"
-      resolved: "Resolved:"
-      unanswered: "Unanswered:"
+      resolved: "已解決："
+      unanswered: "未回答："
       answers: "回答:"
       comments: "評論:"
       votes: "投票:"
-      users: "Users:"
+      users: "用戶："
       flags: "檢舉:"
-      reviews: "Reviews:"
-      site_health: Site health
+      reviews: "評論："
+      site_health: 站點健康
       version: "版本"
       https: "HTTPS:"
-      upload_folder: "Upload folder:"
-      run_mode: "Running mode:"
-      private: Private
-      public: Public
+      upload_folder: "上傳資料夾："
+      run_mode: "運轉模式："
+      private: 私人的
+      public: 公開的
       smtp: "SMTP:"
       timezone: "時區："
-      system_info: System info
-      go_version: "Go version:"
-      database: "Database:"
-      database_size: "Database size:"
+      system_info: 系統資訊
+      go_version: "Go 版本："
+      database: "資料庫:"
+      database_size: "資料庫大小："
       storage_used: "已用儲存空間："
       uptime: "運行時間："
       links: Links
-      plugins: Plugins
+      plugins: 外掛
       github: GitHub
-      blog: Blog
-      contact: Contact
-      forum: Forum
+      blog: 部落格
+      contact: 聯絡方式
+      forum: 論壇
       documents: 文件
       feedback: 用戶反饋
       support: 支持
@@ -1821,8 +1821,8 @@ ui:
       allowed: 允許
       enabled: 已啟用
       disabled: 停用
-      writable: Writable
-      not_writable: Not writable
+      writable: 可寫
+      not_writable: 不可寫
     flags:
       title: 檢舉
       pending: 等待處理
@@ -1837,59 +1837,59 @@ ui:
       btn_cancel: 取消
       btn_submit: 提交
     new_password_modal:
-      title: Set new password
+      title: 設定新密碼
       form:
         fields:
           password:
-            label: Password
-            text: The user will be logged out and need to login again.
-            msg: Password must be at 8-32 characters in length.
-      btn_cancel: Cancel
-      btn_submit: Submit
+            label: 密碼
+            text: 用戶將被登出並需要重新登入。
+            msg: 密碼長度必須為 8-32 個字元。
+      btn_cancel: 取消
+      btn_submit: 提交
     edit_profile_modal:
-      title: Edit profile
+      title: 編輯個人資料
       form:
         fields:
           display_name:
-            label: Display name
-            msg_range: Display name must be 2-30 characters in length.
+            label: 顯示名稱
+            msg_range: 顯示名稱的長度必須為 2-30 個字元。
           username:
-            label: Username
-            msg_range: Username must be 2-30 characters in length.
+            label: 使用者名稱
+            msg_range: 使用者名稱長度必須為 2-30 個字元。
           email:
-            label: Email
-            msg_invalid: Invalid Email Address.
-      edit_success: Edited successfully
-      btn_cancel: Cancel
-      btn_submit: Submit
+            label: 電子郵件
+            msg_invalid: 電子郵件地址無效。
+      edit_success: 編輯成功
+      btn_cancel: 取消
+      btn_submit: 提交
     user_modal:
-      title: Add new user
+      title: 新增用戶
       form:
         fields:
           users:
-            label: Bulk add user
+            label: 大量新增用戶
             placeholder: "John Smith, john@example.com, BUSYopr2\nAlice, alice@example.com, fpDntV8q"
             text: Separate “name, email, password” with commas. One user per line.
             msg: "Please enter the user's email, one per line."
           display_name:
-            label: Display name
-            msg: Display name must be 2-30 characters in length.
+            label: 顯示名稱
+            msg: 顯示名稱的長度必須為 2-30 個字元。
           email:
-            label: Email
-            msg: Email is not valid.
+            label: 電子郵件
+            msg: 電子郵件無效。
           password:
-            label: Password
-            msg: Password must be at 8-32 characters in length.
-      btn_cancel: Cancel
-      btn_submit: Submit
+            label: 密碼
+            msg: 密碼長度必須為 8-32 個字元。
+      btn_cancel: 取消
+      btn_submit: 提交
     users:
       title: 用戶
       name: 名稱
       email: 郵箱
       reputation: 聲望
-      created_at: Created time
-      delete_at: Deleted time
-      suspend_at: Suspended time
+      created_at: 創建時間
+      delete_at: 刪除時間
+      suspend_at: 暫停時間
       status: 狀態
       role: 角色
       action: 操作
@@ -1907,26 +1907,26 @@ ui:
       filter:
         placeholder: "按名稱篩選，用戶：id"
       set_new_password: 設置新密碼
-      edit_profile: Edit profile
+      edit_profile: 編輯個人資料
       change_status: 更改狀態
       change_role: 更改角色
       show_logs: 顯示日誌
       add_user: 新增使用者
       deactivate_user:
-        title: Deactivate user
-        content: An inactive user must re-validate their email.
+        title: 停用用戶
+        content: 不活躍的用戶必須重新驗證他們的電子郵件。
       delete_user:
-        title: Delete this user
-        content: Are you sure you want to delete this user? This is permanent!
-        remove: Remove their content
-        label: Remove all questions, answers, comments, etc.
-        text: Don’t check this if you wish to only delete the user’s account.
+        title: 刪除此用戶
+        content: 您確定要刪除此使用者嗎？此操作永久有效！
+        remove: 刪除其內容
+        label: 刪除所有問題、答案、評論等。
+        text: 如果您只想刪除使用者的帳戶，請不要選取此項目。
       suspend_user:
-        title: Suspend this user
-        content: A suspended user can't log in.
+        title: 暫停該用戶
+        content: 被暫停的用戶無法登入。
     questions:
       page_title: 問題
-      unlisted: Unlisted
+      unlisted: 未公開
       post: 標題
       votes: 得票數
       answers: 回答
@@ -1934,7 +1934,7 @@ ui:
       status: 狀態
       action: 操作
       change: 更改
-      pending: Pending
+      pending: 待辦的
       filter:
         placeholder: "按標題過濾，問題:id"
     answers:
@@ -1950,7 +1950,7 @@ ui:
     general:
       page_title: 一般
       name:
-        label: Site name
+        label: 網站名稱
         msg: 不能為空
         text: "網站的名稱，如標題標籤中所用。"
       site_url:
@@ -1959,25 +1959,25 @@ ui:
         validate: 請輸入一個有效的 URL。
         text: 此網站的網址。
       short_desc:
-        label: Short site description
+        label: 簡短的網站描述
         msg: 網站簡短描述不能為空。
         text: "簡短的描述，如主頁上的標題標籤所使用的那样。"
       desc:
-        label: Site description
+        label: 站點描述
         msg: 網站描述不能為空。
         text: "使用一句話描述本站，作為網站的描述（Html 的 meta 標籤）。"
       contact_email:
-        label: Contact email
+        label: 聯絡信箱
         msg: 聯絡人信箱不能為空。
         validate: 聯絡人信箱無效。
         text: 負責本網站的主要聯絡人的電子郵件信箱。
       check_update:
-        label: Software updates
-        text: Automatically check for updates
+        label: 軟體更新
+        text: 自動檢查更新
     interface:
       page_title: 介面
       language:
-        label: Interface language
+        label: 介面語言
         msg: 界面語言不能為空
         text: 設置用戶界面語言，在刷新頁面后生效。
       time_zone:
@@ -1987,15 +1987,15 @@ ui:
     smtp:
       page_title: SMTP
       from_email:
-        label: From email
+        label: 來自電子郵件
         msg: 發件人電子郵件不能为空。
         text: 發送郵件的郵箱地址
       from_name:
-        label: From name
+        label: 寄件人姓名
         msg: 發件人名稱不能为空。
         text: 發件人的名稱
       smtp_host:
-        label: SMTP host
+        label: SMTP 主機
         msg: SMTP 主機名稱不能為空。
         text: 郵件服務器
       encryption:
@@ -2006,14 +2006,14 @@ ui:
         tls: TLS
         none: 無
       smtp_port:
-        label: SMTP port
+        label: SMTP 連接埠
         msg: SMTP 埠必須在 1 ~ 65535 之間。
         text: 郵件服務器的端口號。
       smtp_username:
-        label: SMTP username
+        label: SMTP 使用者名稱
         msg: SMTP 用戶名不能為空。
       smtp_password:
-        label: SMTP password
+        label: SMTP 密碼
         msg: SMTP 密碼不能為空。
       test_email_recipient:
         label: Test email recipients
@@ -2021,7 +2021,7 @@ ui:
         msg: 測試郵件收件人無效
       smtp_authentication:
         label: 啟用身份驗證
-        title: SMTP authentication
+        title: SMTP 身份驗證
         msg: SMTP 身份驗證不能為空。
         "yes": "是"
         "no": "否"
@@ -2035,7 +2035,7 @@ ui:
         label: Mobile logo
         text: 在您網站的移動版本上使用的徽標。 使用高度為 56 的寬矩形圖像。如果留空，將使用“徽標”設置中的圖像。
       square_icon:
-        label: Square icon
+        label: 方形圖示
         msg: 方形圖示不能為空。
         text: 用作元數據圖標的基礎的圖像。最好是大於512x512。
       favicon:
@@ -2044,49 +2044,49 @@ ui:
     legal:
       page_title: 法律條款
       terms_of_service:
-        label: Terms of service
+        label: 服務條款
         text: "您可以在此加入服務內容的條款。如果您已經在別處托管了文檔，請在這裡提供完整的URL。"
       privacy_policy:
-        label: Privacy policy
+        label: 隱私權政策
         text: "您可以在此加入隱私政策內容。如果您已經在別處托管了文檔，請在這裡提供完整的URL。"
       external_content_display:
-        label: External content
-        text: "Content includes images, videos, and media embedded from external websites."
-        always_display: Always display external content
-        ask_before_display: Ask before displaying external content
+        label: 外部內容
+        text: "內容包括嵌入外部網站的圖像、影片和媒體。"
+        always_display: 始終顯示外部內容
+        ask_before_display: 顯示外部內容前詢問
     write:
       page_title: 編輯
       restrict_answer:
-        title: Answer write
-        label: Each user can only write one answer for each question
-        text: "Turn off to allow users to write multiple answers to the same question, which may cause answers to be unfocused."
+        title: 答案寫
+        label: 每個使用者每個問題只能寫一個答案
+        text: "關閉則允許使用者對同一個問題寫多個答案，這可能會導致答案不集中。"
       recommend_tags:
-        label: Recommend tags
-        text: "Recommend tags will show in the dropdown list by default."
+        label: 推薦標籤
+        text: "推薦標籤將預設顯示在下拉清單中。"
         msg:
-          contain_reserved: "recommended tags cannot contain reserved tags"
+          contain_reserved: "建議的標籤不能包含保留標籤"
       required_tag:
-        title: Set required tags
-        label: Set “Recommend tags” as required tags
+        title: 設定所需的標籤
+        label: 將「建議標籤」設定為必要標籤
         text: "每個新問題必須至少有一個推薦標籤。"
       reserved_tags:
-        label: Reserved tags
-        text: "Reserved tags can only be used by moderator."
+        label: 保留標籤
+        text: "保留標籤僅可由主持人使用。"
       image_size:
-        label: Max image size (MB)
-        text: "The maximum image upload size."
+        label: 最大影像尺寸 (MB)
+        text: "最大圖像上傳尺寸。"
       attachment_size:
-        label: Max attachment size (MB)
-        text: "The maximum attachment files upload size."
+        label: 最大附件大小 (MB)
+        text: "最大附件文件上傳大小。"
       image_megapixels:
-        label: Max image megapixels
-        text: "Maximum number of megapixels allowed for an image."
+        label: 最大影像像素
+        text: "影像允許的最大像素數。"
       image_extensions:
-        label: Authorized image extensions
-        text: "A list of file extensions allowed for image display, separate with commas."
+        label: 授權圖片擴充
+        text: "允許圖像顯示的檔案副檔名列表，以逗號分隔。"
       attachment_extensions:
-        label: Authorized attachment extensions
-        text: "A list of file extensions allowed for upload, separate with commas. WARNING: Allowing uploads may cause security issues."
+        label: 授權附件擴充
+        text: "允許上傳的檔案副檔名列表，以逗號分隔。警告：允許上傳可能會導致安全性問題。"
     seo:
       page_title: 搜尋引擎優化
       permalink:
@@ -2101,9 +2101,9 @@ ui:
         label: 主題
         text: 選擇一個現有主題。
       color_scheme:
-        label: Color scheme
+        label: 配色方案
       navbar_style:
-        label: Navbar background style
+        label: 導覽列背景樣式
       primary_color:
         label: 主色調
         text: 修改您主題使用的顏色
@@ -2123,10 +2123,10 @@ ui:
 
       footer:
         label: 頁尾
-        text: This will insert before &lt;/body>.
+        text: 這將插入到 &lt;/body> 之前。
       sidebar:
-        label: Sidebar
-        text: This will insert in sidebar.
+        label: 側邊欄
+        text: 這將插入側邊欄。
     login:
       page_title: 登入
       membership:
@@ -2134,23 +2134,23 @@ ui:
         label: 允許新註冊
         text: 關閉以防止任何人創建新帳戶。
       email_registration:
-        title: Email registration
-        label: Allow email registration
-        text: Turn off to prevent anyone creating new account through email.
+        title: 電子郵件註冊
+        label: 允許電子郵件註冊
+        text: 關閉以防止任何人透過電子郵件建立新帳戶。
       allowed_email_domains:
-        title: Allowed email domains
-        text: Email domains that users must register accounts with. One domain per line. Ignored when empty.
+        title: 允許的電子郵件網域
+        text: 用戶必須註冊帳戶的郵箱網域。每行一個域名。為空時忽略。
       private:
         title: 非公開的
         label: 需要登入
         text: 只有登入使用者才能訪問這個社群。
       password_login:
-        title: Password login
-        label: Allow email and password login
-        text: "WARNING: If turn off, you may be unable to log in if you have not previously configured other login method."
+        title: 密碼登入
+        label: 允許電子郵件和密碼登入
+        text: "警告：如果關閉，如果您之前沒有設定其他登入方法，您可能無法登入。"
     installed_plugins:
-      title: Installed Plugins
-      plugin_link: Plugins extend and expand the functionality. You may find plugins in the <1>Plugin Repository</1>.
+      title: 已安裝的插件
+      plugin_link: 插件可以擴充和擴充功能。您可以在<1>插件庫</1>中找到插件。
       filter:
         all: All
         active: Active
@@ -2170,54 +2170,54 @@ ui:
       title: Users
       avatar:
         label: Default avatar
-        text: For users without a custom avatar of their own.
+        text: 適用於沒有自訂頭像的使用者。
       gravatar_base_url:
         label: Gravatar 基礎網址
-        text: URL of the Gravatar provider's API base. Ignored when empty.
+        text: Gravatar 提供者 API 庫的 URL。為空時忽略。
       profile_editable:
-        title: Profile editable
+        title: 可編輯個人資料
       allow_update_display_name:
-        label: Allow users to change their display name
+        label: 允許使用者更改其顯示名稱
       allow_update_username:
-        label: Allow users to change their username
+        label: 允許用戶更改其用戶名
       allow_update_avatar:
-        label: Allow users to change their profile image
+        label: 允許用戶更改其個人資料圖片
       allow_update_bio:
-        label: Allow users to change their about me
+        label: 允許用戶更改他們的「關於我」
       allow_update_website:
-        label: Allow users to change their website
+        label: 允許用戶更改他們的網站
       allow_update_location:
-        label: Allow users to change their location
+        label: 允許使用者更改其位置
     privilege:
-      title: Privileges
+      title: 權限
       level:
-        label: Reputation required level
-        text: Choose the reputation required for the privileges
+        label: 聲望要求等級
+        text: 選擇特權所需的聲譽
       msg:
-        should_be_number: the input should be number
-        number_larger_1: number should be equal or larger than 1
+        should_be_number: 輸入應該是數字
+        number_larger_1: 數字應等於或大於 1
     badges:
-      action: Action
-      active: Active
-      activate: Activate
+      action: 行動
+      active: 積極的
+      activate: 啟用設定
       all: All
-      awards: Awards
-      deactivate: Deactivate
+      awards: 獎項
+      deactivate: 停用
       filter:
-        placeholder: Filter by name, badge:id
-      group: Group
-      inactive: Inactive
-      name: Name
-      show_logs: Show logs
-      status: Status
-      title: Badges
+        placeholder: 按名稱、徽章:id 過濾
+      group: 團體
+      inactive: 不活躍
+      name: 姓名
+      show_logs: 顯示日誌
+      status: 地位
+      title: 徽章
   form:
     optional: (選填)
     empty: 不能為空
     invalid: 是無效的
     btn_submit: 儲存
     not_found_props: "所需屬性 {{ key }} 未找到。"
-    select: Select
+    select: 選擇
   page_review:
     review: 審核
     proposed: 提案
@@ -2229,22 +2229,22 @@ ui:
     edit_answer: 編輯回答
     edit_tag: 編輯標籤
     empty: 沒有剩餘的審核任務。
-    approve_revision_tip: Do you approve this revision?
-    approve_flag_tip: Do you approve this flag?
-    approve_post_tip: Do you approve this post?
-    approve_user_tip: Do you approve this user?
-    suggest_edits: Suggested edits
-    flag_post: Flag post
-    flag_user: Flag user
-    queued_post: Queued post
+    approve_revision_tip: 您同意這個修改嗎？
+    approve_flag_tip: 您同意這個標誌嗎？
+    approve_post_tip: 您同意這個帖子嗎？
+    approve_user_tip: 您認可該用戶嗎？
+    suggest_edits: 建議的修改
+    flag_post: 旗桿
+    flag_user: 標記用戶
+    queued_post: 排隊貼文
     queued_user: Queued user
     filter_label: Type
-    reputation: reputation
-    flag_post_type: Flagged this post as {{ type }}.
-    flag_user_type: Flagged this user as {{ type }}.
-    edit_post: Edit post
-    list_post: List post
-    unlist_post: Unlist post
+    reputation: 名聲
+    flag_post_type: 已將此帖子標記為 {{ type }}。
+    flag_user_type: 已將此使用者標記為 {{ type }}。
+    edit_post: 編輯貼文
+    list_post: 清單貼文
+    unlist_post: 取消列出帖子
   timeline:
     undeleted: 未刪除的
     deleted: 刪除
@@ -2278,8 +2278,8 @@ ui:
     no_data: "我們找不到任何東西。"
   users:
     title: 用戶
-    users_with_the_most_reputation: Users with the highest reputation scores this week
-    users_with_the_most_vote: Users who voted the most this week
+    users_with_the_most_reputation: 本周信譽評分最高的用戶
+    users_with_the_most_vote: 本週投票最多的用戶
     staffs: 我們的社區工作人員
     reputation: 聲望值
     votes: 選票
@@ -2315,5 +2315,3 @@ ui:
     copy: Copy to clipboard
     copied: Copied
     external_content_warning: External images/media are not displayed.
-
-
