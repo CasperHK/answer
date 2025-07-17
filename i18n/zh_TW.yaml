@@ -112,55 +112,55 @@ backend:
     rank_tag_add_label:
       other: Create new tag
     rank_tag_edit_label:
-      other: Edit tag description (need to review)
+      other: 編輯標籤描述（需審核）
     rank_question_edit_label:
-      other: Edit other's question (need to review)
+      other: 編輯其他人的問題（需要審核）
     rank_answer_edit_label:
-      other: Edit other's answer (need to review)
+      other: 編輯其他人的答案（需要審核）
     rank_question_edit_without_review_label:
-      other: Edit other's question without review
+      other: 未經審核編輯其他人的問題
     rank_answer_edit_without_review_label:
-      other: Edit other's answer without review
+      other: 未經審核編輯其他人的答案
     rank_question_audit_label:
-      other: Review question edits
+      other: 審查問題編輯
     rank_answer_audit_label:
-      other: Review answer edits
+      other: 審核答案編輯
     rank_tag_audit_label:
-      other: Review tag edits
+      other: 審核標籤編輯
     rank_tag_edit_without_review_label:
-      other: Edit tag description without review
+      other: 無需審核即可編輯標籤描述
     rank_tag_synonym_label:
-      other: Manage tag synonyms
+      other: 管理標籤同義詞
   email:
     other: 電子郵件
   e_mail:
-    other: Email
+    other: 電子郵件
   password:
     other: 密碼
   pass:
-    other: Password
+    other: 密碼
   old_pass:
-    other: Current password
+    other: 目前密碼
   original_text:
-    other: This post
+    other: 這篇貼文
   email_or_password_wrong_error:
     other: 電郵和密碼不匹配。
   error:
     common:
       invalid_url:
-        other: Invalid URL.
+        other: 無效的 URL。
       status_invalid:
-        other: Invalid status.
+        other: 無效狀態。
     password:
       space_invalid:
-        other: Password cannot contain spaces.
+        other: 密碼不能包含空格。
     admin:
       cannot_update_their_password:
         other: 您不能修改自己的密码。
       cannot_edit_their_profile:
-        other: You cannot modify your profile.
+        other: 您不能修改您的個人資料。
       cannot_modify_self_status:
-        other: You cannot modify your status.
+        other: 您不能修改您的狀態。
       email_or_password_wrong:
         other: 電郵和密碼不匹配。
     answer:
@@ -171,9 +171,9 @@ backend:
       cannot_update:
         other: 沒有更新權限。
       question_closed_cannot_add:
-        other: Questions are closed and cannot be added.
+        other: 問題已關閉，無法新增。
       content_cannot_empty:
-        other: Answer content cannot be empty.
+        other: 答案內容不能為空。
     comment:
       edit_without_permission:
         other: 不允許編輯評論。
@@ -215,15 +215,15 @@ backend:
       new_password_same_as_previous_setting:
         other: 新密碼與先前的一樣。
       already_deleted:
-        other: This post has been deleted.
+        other: 該帖子已被刪除。
     meta:
       object_not_found:
-        other: Meta object not found
+        other: 未找到元對象
     question:
       already_deleted:
-        other: This post has been deleted.
+        other: 該帖子已被刪除。
       under_review:
-        other: Your post is awaiting review. It will be visible after it has been approved.
+        other: 您的貼文正在等待審核。審核通過後即可顯示。
       not_found:
         other: 找不到問題。
       cannot_deleted:
@@ -233,14 +233,14 @@ backend:
       cannot_update:
         other: 無更新權限。
       content_cannot_empty:
-        other: Content cannot be empty.
+        other: 內容不能為空。
     rank:
       fail_to_meet_the_condition:
-        other: Reputation rank fail to meet the condition.
+        other: 信譽等級不符合資格。
       vote_fail_to_meet_the_condition:
-        other: Thanks for the feedback. You need at least {{.Rank}} reputation to cast a vote.
+        other: 感謝您的回饋。您至少需要 {{.Rank}} 聲望值才能投票。
       no_enough_rank_to_operate:
-        other: You need at least {{.Rank}} reputation to do this.
+        other: 您至少需要 {{.Rank}} 聲譽才能執行此操作。
     report:
       handle_failed:
         other: 報告處理失敗。
@@ -260,12 +260,12 @@ backend:
       cannot_update:
         other: 沒有權限更新。
       is_used_cannot_delete:
-        other: You cannot delete a tag that is in use.
+        other: 您無法刪除正在使用的標籤。
       cannot_set_synonym_as_itself:
         other: 你不能將當前標籤的同義詞設置為本身。
     smtp:
       config_from_name_cannot_be_email:
-        other: The from name cannot be a email address.
+        other: 寄件者姓名不能是電子郵件地址。
     theme:
       not_found:
         other: 未找到主題。
@@ -482,7 +482,7 @@ backend:
         other: "<a href='{{.AnswerUrl}}'>{{.QuestionTitle}}</a><br><br>\n\n{{.DisplayName}}:<br>\n<blockquote>{{.AnswerSummary}}</blockquote><br>\n<a href='{{.AnswerUrl}}'>View it on {{.SiteName}}</a><br><br>\n\n--<br>\nNote: This is an automatic system email, please do not reply to this message as your response will not be seen.<br><br>\n\n<small><a href='{{.UnsubscribeUrl}}'>Unsubscribe</a></small>"
     invited_you_to_answer:
       title:
-        other: "[{{.SiteName}}] {{.DisplayName}} invited you to answer"
+        other: "[{{.SiteName}}] {{.DisplayName}} 邀請您回答"
       body:
         other: "<a href='{{.InviteUrl}}'>{{.QuestionTitle}}</a><br><br>\n\n{{.DisplayName}}:<br>\n<blockquote>I think you may know the answer.</blockquote><br>\n<a href='{{.InviteUrl}}'>View it on {{.SiteName}}</a><br><br>\n\n--<br>\nNote: This is an automatic system email, please do not reply to this message as your response will not be seen.<br><br>\n\n<small><a href='{{.UnsubscribeUrl}}'>Unsubscribe</a></small>"
     new_comment:
@@ -739,42 +739,42 @@ backend:
           other: Answer score of 50 or more.
       nice_question:
         name:
-          other: Nice Question
+          other: 好問題
         desc:
-          other: Question score of 10 or more.
+          other: 問題分數為10分或以上。
       good_question:
         name:
-          other: Good Question
+          other: 好問題
         desc:
-          other: Question score of 25 or more.
+          other: 問題分數為25分或以上。
       great_question:
         name:
-          other: Great Question
+          other: 好問題
         desc:
-          other: Question score of 50 or more.
+          other: 題目分數在50分以上。
       popular_question:
         name:
-          other: Popular Question
+          other: 熱門問題
         desc:
-          other: Question with 500 views.
+          other: 有 500 次瀏覽量的問題。
       notable_question:
         name:
           other: Notable Question
         desc:
-          other: Question with 1,000 views.
+          other: 有 1,000 次瀏覽量的問題。
       famous_question:
         name:
-          other: Famous Question
+          other: 著名問題
         desc:
-          other: Question with 5,000 views.
+          other: 瀏覽量達 5,000 次的問題。
       popular_link:
         name:
-          other: Popular Link
+          other: 熱門連結
         desc:
-          other: Posted an external link with 50 clicks.
+          other: 發布了一個外部鏈接，點擊量達到 50 次。
       hot_link:
         name:
-          other: Hot Link
+          other: 熱門連結
         desc:
           other: Posted an external link with 300 clicks.
       famous_link:
@@ -980,8 +980,8 @@ ui:
       empty: 不能為空
     msg:
       empty: 請選擇一個原因。
-      not_a_url: URL format is incorrect.
-      url_not_match: URL origin does not match the current website.
+      not_a_url: URL 格式不正確。
+      url_not_match: URL 來源與目前網站不符。
   tag_modal:
     title: 創建新標籤
     form:
@@ -1486,10 +1486,10 @@ ui:
     deleted: Deleted
     deleted_permanently: Deleted permanently
     pending: Pending
-    more: More
-    view: View
-    card: Card
-    compact: Compact
+    more: 更多的
+    view: 視圖
+    card: 卡片
+    compact: 緊湊
     display_below: Display below
     always_display: Always display
     or: or
@@ -2289,16 +2289,16 @@ ui:
   draft:
     discard_confirm: Are you sure you want to discard your draft?
   messages:
-    post_deleted: This post has been deleted.
-    post_cancel_deleted: This post has been undeleted.
-    post_pin: This post has been pinned.
-    post_unpin: This post has been unpinned.
-    post_hide_list: This post has been hidden from list.
-    post_show_list: This post has been shown to list.
-    post_reopen: This post has been reopened.
-    post_list: This post has been listed.
-    post_unlist: This post has been unlisted.
-    post_pending: Your post is awaiting review. This is a preview, it will be visible after it has been approved.
+    post_deleted: 該帖子已被刪除。
+    post_cancel_deleted: 該帖子已被恢復刪除。
+    post_pin: 此貼文已置頂。
+    post_unpin: 此貼文已取消置頂。
+    post_hide_list: 該帖子已從清單中隱藏。
+    post_show_list: 該貼文已顯示至清單。
+    post_reopen: 此貼文已重新開放。
+    post_list: 此貼文已上架。
+    post_unlist: 該貼文已取消公開。
+    post_pending: 您的貼文正在等待審核。這是預覽，審核通過後即可查看。
     post_closed: This post has been closed.
     answer_deleted: This answer has been deleted.
     answer_cancel_deleted: This answer has been undeleted.
@@ -2314,4 +2314,4 @@ ui:
     answers_deleted: These answers have been deleted.
     copy: Copy to clipboard
     copied: Copied
-    external_content_warning: External images/media are not displayed.
+    external_content_warning: 不顯示外部影像／媒體。
