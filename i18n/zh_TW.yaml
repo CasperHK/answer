@@ -1385,14 +1385,14 @@ ui:
     useful: 有用
     question_useful: 有用且清晰
     question_un_useful: 不清楚或無用
-    question_bookmark: Bookmark this question
-    answer_useful: It is useful
-    answer_un_useful: It is not useful
+    question_bookmark: 收藏此問題
+    answer_useful: 它很有用
+    answer_un_useful: 這沒用
     answers:
       title: 個回答
       score: 評分
       newest: 最新
-      oldest: Oldest
+      oldest: 最舊的
       btn_accept: 採納
       btn_accepted: 已被採納
     write_answer:
@@ -1523,18 +1523,18 @@ ui:
     via: 分享在...
     copied: 已複製
     facebook: 分享到 Facebook
-    twitter: Share to X
-  cannot_vote_for_self: You can't vote for your own post.
+    twitter: 分享到 X
+  cannot_vote_for_self: 您不能為自己的帖子投票。
   modal_confirm:
     title: 發生錯誤...
   delete_permanently:
-    title: Delete permanently
-    content: Are you sure you want to delete permanently?
+    title: 永久刪除
+    content: 您確定要永久刪除嗎？
   account_result:
     success: 你的帳號已通過驗證，即將返回首頁。
     link: 繼續訪問主頁
-    oops: Oops!
-    invalid: The link you used no longer works.
+    oops: 哎呀！
+    invalid: 您使用的連結不再有效。
     confirm_new_email: 你的電子郵箱已更新
     confirm_new_email_invalid: >-
       抱歉，此驗證連結已失效。也許是你的郵箱已經成功更改了？
@@ -1659,49 +1659,49 @@ ui:
     site_information: 網站資訊
     admin_account: 管理員帳戶
     site_name:
-      label: Site name
-      msg: Site name cannot be empty.
-      msg_max_length: Site name must be at maximum 30 characters in length.
+      label: 網站名稱
+      msg: 站台名稱不能為空。
+      msg_max_length: 網站名稱的長度最多為 30 個字元。
     site_url:
       label: 網站 URL
       text: 此網站的地址。
       msg:
         empty: 網站URL不能為空。
         incorrect: 網站URL格式不正確。
-        max_length: Site URL must be at maximum 512 characters in length.
+        max_length: 網站 URL 的長度最多為 512 個字元。
     contact_email:
       label: Contact email
       text: 負責本網站的主要聯絡人的電子郵件地址。
       msg:
-        empty: Contact email cannot be empty.
-        incorrect: Contact email incorrect format.
+        empty: 聯絡郵箱不能為空。
+        incorrect: 聯絡郵箱格式不正確。
     login_required:
-      label: Private
-      switch: Login required
-      text: Only logged in users can access this community.
+      label: 不公開
+      switch: 需要登入
+      text: 只有登入使用者才能造訪該社群。
     admin_name:
       label: 暱稱
       msg: 暱稱不能為空。
-      character: 'Must use the character set "a-z", "A-Z", "0-9", " - . _"'
-      msg_max_length: Name must be between 2 to 30 characters in length.
+      character: '必須使用字元集 "a-z", "A-Z", "0-9", " - . _"'
+      msg_max_length: 名稱長度必須介於 2 至 30 個字元之間。
     admin_password:
       label: 密碼
       text: >-
         您需要此密碼才能登入。請將其儲存在一個安全的位置。
       msg: 密碼不能為空。
-      msg_min_length: Password must be at least 8 characters in length.
-      msg_max_length: Password must be at maximum 32 characters in length.
+      msg_min_length: 密碼長度必須至少為 8 個字元。
+      msg_max_length: 密碼長度最多為 32 個字元。
     admin_confirm_password:
-      label: "Confirm Password"
-      text: "Please re-enter your password to confirm."
-      msg: "Confirm password does not match."
+      label: "確認密碼"
+      text: "請重新輸入您的密碼以確認。"
+      msg: "確認密碼不符。"
     admin_email:
       label: 郵箱
       text: 您需要此電子郵件才能登入。
       msg:
         empty: 郵箱不能為空。
         incorrect: 郵箱格式不正確。
-    ready_title: Your site is ready
+    ready_title: 您的網站已準備就緒
     ready_desc: >-
       如果你想改變更多的設定，請瀏覽<1>管理員部分</1>；在網站選單中找到它。
     good_luck: "玩得愉快，祝您好運！"
@@ -1722,10 +1722,10 @@ ui:
     accepted: 已採納
   page_error:
     http_error: HTTP 错误 {{ code }}
-    desc_403: You don't have permission to access this page.
-    desc_404: Unfortunately, this page doesn't exist.
-    desc_50X: The server encountered an error and could not complete your request.
-    back_home: Back to homepage
+    desc_403: 您無權存取此頁面。
+    desc_404: 不幸的是，此頁面不存在。
+    desc_50X: 伺服器遇到錯誤，無法完成您的請求。
+    back_home: 返回首頁
   page_maintenance:
     desc: "我們正在維護中，很快就會回來。"
   nav_menus:
@@ -1734,7 +1734,7 @@ ui:
     questions: 問題
     answers: 回答
     users: 使用者管理
-    badges: Badges
+    badges: 徽章
     flags: 檢舉
     settings: 設定
     general: 一般
@@ -1801,7 +1801,7 @@ ui:
       database_size: "資料庫大小："
       storage_used: "已用儲存空間："
       uptime: "運行時間："
-      links: Links
+      links: 連結
       plugins: 外掛
       github: GitHub
       blog: 部落格
@@ -1828,7 +1828,7 @@ ui:
       pending: 等待處理
       completed: 已完成
       flagged: 已標記
-      flagged_type: Flagged {{ type }}
+      flagged_type: 已標記 {{ type }}
       created: 創建於
       action: 操作
       review: 審核
@@ -1869,8 +1869,8 @@ ui:
           users:
             label: 大量新增用戶
             placeholder: "John Smith, john@example.com, BUSYopr2\nAlice, alice@example.com, fpDntV8q"
-            text: Separate “name, email, password” with commas. One user per line.
-            msg: "Please enter the user's email, one per line."
+            text: 用逗號分隔「姓名、信箱、密碼」。每行一個用戶。
+            msg: "請輸入使用者的電子郵件，每行一個。"
           display_name:
             label: 顯示名稱
             msg: 顯示名稱的長度必須為 2-30 個字元。
@@ -1896,7 +1896,7 @@ ui:
       change: 更改
       all: 全部
       staff: 工作人員
-      more: More
+      more: 更多的
       inactive: 不活躍
       suspended: 已停權
       deleted: 已刪除
@@ -2158,7 +2158,7 @@ ui:
         outdated: Outdated
       plugins:
         label: Plugins
-        text: Select an existing plugin.
+        text: 選擇一個現有的插件。
       name: Name
       version: Version
       status: Status
@@ -2287,7 +2287,7 @@ ui:
     leave_page: 你確定要離開此頁面？
     changes_not_save: 你所做的變更可能不會儲存。
   draft:
-    discard_confirm: Are you sure you want to discard your draft?
+    discard_confirm: 您確定要放棄草稿嗎？
   messages:
     post_deleted: 該帖子已被刪除。
     post_cancel_deleted: 該帖子已被恢復刪除。
@@ -2299,19 +2299,19 @@ ui:
     post_list: 此貼文已上架。
     post_unlist: 該貼文已取消公開。
     post_pending: 您的貼文正在等待審核。這是預覽，審核通過後即可查看。
-    post_closed: This post has been closed.
-    answer_deleted: This answer has been deleted.
-    answer_cancel_deleted: This answer has been undeleted.
-    change_user_role: This user's role has been changed.
-    user_inactive: This user is already inactive.
-    user_normal: This user is already normal.
-    user_suspended: This user has been suspended.
-    user_deleted: This user has been deleted.
-    badge_activated: This badge has been activated.
-    badge_inactivated: This badge has been inactivated.
-    users_deleted: These users have been deleted.
-    posts_deleted: These questions have been deleted.
-    answers_deleted: These answers have been deleted.
-    copy: Copy to clipboard
-    copied: Copied
+    post_closed: 該帖子已關閉。
+    answer_deleted: 該答案已被刪除。
+    answer_cancel_deleted: 該答案已取消刪除。
+    change_user_role: 該使用者的角色已更改。
+    user_inactive: 該用戶已處於非活動狀態。
+    user_normal: 該用戶已經正常。
+    user_suspended: 該用戶已被暫停。
+    user_deleted: 該用戶已被刪除。
+    badge_activated: 此徽章已啟動。
+    badge_inactivated: 此徽章已停用。
+    users_deleted: 這些用戶已被刪除。
+    posts_deleted: 這些問題已被刪除。
+    answers_deleted: 這些答案已被刪除。
+    copy: 複製到剪貼簿
+    copied: 已複製
     external_content_warning: 不顯示外部影像／媒體。
