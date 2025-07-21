@@ -797,7 +797,7 @@ ui:
   how_to_format:
     title: 如何設定文本格式
     desc: >-
-      <ul class="mb-0"><li><p class="mb-2">mention a post: <code>#post_id</code></p></li> <li><p class="mb-2">to make links</p><pre class="mb-2"><code>&lt;https://url.com&gt;<br/><br/>[Title](https://url.com)</code></pre></li><li><p class="mb-2">put returns between paragraphs</p></li><li><p class="mb-2"><em>_italic_</em> or **<strong>bold</strong>**</p></li><li><p class="mb-2">indent code by 4 spaces</p></li><li><p class="mb-2">quote by placing <code>&gt;</code> at start of line</p></li><li><p class="mb-2">backtick escapes <code>`like _this_`</code></p></li><li><p class="mb-2">create code fences with backticks <code>`</code></p><pre class="mb-0"><code>```<br/>code here<br/>```</code></pre></li></ul>
+      <ul class="mb-0"><li><p class="mb-2">提及貼文：<code>#post_id</code></p></li> <li><p class="mb-2">建立連結</p><pre class="mb-2"><code>&lt;https://url.com&gt;<br/><br/>[Title](https://url.com)</code></pre></li><li><p class="mb-2">在段落之間添加回車符</p></li><li><p class="mb-2"><em>_italic_</em> or **<strong>bold</strong>**</p></li><li><p class="mb-2">indent code by 4 spaces</p></li><li><p class="mb-2">quote by placing <code>&gt;</code> at start of line</p></li><li><p class="mb-2">backtick escapes <code>`like _this_`</code></p></li><li><p class="mb-2">create code fences with backticks <code>`</code></p><pre class="mb-0"><code>```<br/>code here<br/>```</code></pre></li></ul>
   pagination:
     prev: 上一頁
     next: 下一頁
@@ -1102,7 +1102,7 @@ ui:
     sort_buttons:
       popular: 熱門
       name: 名稱
-      newest: Newest
+      newest: 最新
     button_follow: 關注
     button_following: 已關注
     tag_label: 個問題
@@ -1170,7 +1170,7 @@ ui:
       placeholder: 搜尋
   footer:
     build_on: >-
-      Powered by <1> Apache Answer </1>- the open-source software that powers Q&A communities.<br />Made with love © {{cc}}.
+      由 <1>Apache Answer </1> 提供支援 - 為問答社群提供支援的開源軟體。 <br />精心製作 © {{cc}}。
   upload_img:
     name: 更改
     loading: 讀取中...
