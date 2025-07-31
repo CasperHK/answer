@@ -527,9 +527,9 @@ backend:
       other: edit
   review:
     queued_post:
-      other: Queued post
+      other: 排隊貼文
     flagged_post:
-      other: Flagged post
+      other: 已標記的帖子
     suggested_post_edit:
       other: Suggested edits
   reaction:
@@ -539,29 +539,29 @@ backend:
     default_badges:
       autobiographer:
         name:
-          other: Autobiographer
+          other: 自傳作者
         desc:
-          other: Filled out <a href="{{ .ProfileURL }}" target="_blank">profile</a> information.
+          other: 已填入 <a href="{{ .ProfileURL }}" target="_blank">個人資料</a> 資訊.
       certified:
         name:
-          other: Certified
+          other: 認證
         desc:
           other: Completed our new user tutorial.
       editor:
         name:
-          other: Editor
+          other: 編輯
         desc:
-          other: First post edit.
+          other: 第一次編輯貼文。
       first_flag:
         name:
-          other: First Flag
+          other: 第一面旗幟
         desc:
-          other: First flagged a post.
+          other: 首先標記一個帖子。
       first_upvote:
         name:
-          other: First Upvote
+          other: 首次按讚
         desc:
-          other: First up voted a post.
+          other: 首先對帖子進行了投票。
       first_link:
         name:
           other: First Link
@@ -569,32 +569,32 @@ backend:
           other: First added a link to another post.
       first_reaction:
         name:
-          other: First Reaction
+          other: 第一反應
         desc:
-          other: First reacted to the post.
+          other: 首先對該帖子做出反應。
       first_share:
         name:
-          other: First Share
+          other: 第一股
         desc:
-          other: First shared a post.
+          other: 先分享一篇貼文。
       scholar:
         name:
-          other: Scholar
+          other: 學者
         desc:
-          other: Asked a question and accepted an answer.
+          other: 提出一個問題並接受一個答案。
       commentator:
         name:
-          other: Commentator
+          other: 評論員
         desc:
-          other: Leave 5 comments.
+          other: 留下 5 則評論。
       new_user_of_the_month:
         name:
-          other: New User of the Month
+          other: 本月新用戶
         desc:
-          other: Outstanding contributions in their first month.
+          other: 第一個月的傑出貢獻。
       read_guidelines:
         name:
-          other: Read Guidelines
+          other: 閱讀指南
         desc:
           other: Read the [community guidelines].
       reader:
@@ -629,12 +629,12 @@ backend:
           other: Used 50 up votes in a day.
       higher_love:
         name:
-          other: Higher Love
+          other: 更高的愛
         desc:
           other: Used 50 up votes in a day 5 times.
       crazy_in_love:
         name:
-          other: Crazy in Love
+          other: 瘋狂的愛
         desc:
           other: Used 50 up votes in a day 20 times.
       promoter:
@@ -649,9 +649,9 @@ backend:
           other: Invited 3 basic users.
       champion:
         name:
-          other: Champion
+          other: 冠軍
         desc:
-          other: Invited 5 members.
+          other: 邀請了5位成員。
       thank_you:
         name:
           other: Thank You
@@ -669,14 +669,14 @@ backend:
           other: Has 500 up voted posts and gave 1000 up votes.
       enthusiast:
         name:
-          other: Enthusiast
+          other: 愛好者
         desc:
           other: Visited 10 consecutive days.
       aficionado:
         name:
-          other: Aficionado
+          other: 愛好者
         desc:
-          other: Visited 100 consecutive days.
+          other: 連續訪問100天。
       devotee:
         name:
           other: Devotee
@@ -694,49 +694,49 @@ backend:
           other: Received 1 up vote on 20 posts.
       respected:
         name:
-          other: Respected
+          other: 受人尊敬
         desc:
-          other: Received 2 up votes on 100 posts.
+          other: 在 100 篇貼文中獲得了 2 個贊成票。
       admired:
         name:
-          other: Admired
+          other: 令人欽佩
         desc:
-          other: Received 5 up votes on 300 posts.
+          other: 在 300 篇貼文中獲得了 5 個贊成票。
       solved:
         name:
-          other: Solved
+          other: 已解決
         desc:
-          other: Have an answer be accepted.
+          other: 有一個答案被接受。
       guidance_counsellor:
         name:
-          other: Guidance Counsellor
+          other: 指導顧問
         desc:
-          other: Have 10 answers be accepted.
+          other: 有 10 個答案被接受。
       know_it_all:
         name:
-          other: Know-it-All
+          other: 萬事通
         desc:
-          other: Have 50 answers be accepted.
+          other: 接受 50 個答案。
       solution_institution:
         name:
-          other: Solution Institution
+          other: 解決方案機構
         desc:
-          other: Have 150 answers be accepted.
+          other: 接受 150 個答案。
       nice_answer:
         name:
-          other: Nice Answer
+          other: 不錯的答案
         desc:
-          other: Answer score of 10 or more.
+          other: 答案分數為10分或以上。
       good_answer:
         name:
-          other: Good Answer
+          other: 好答案
         desc:
-          other: Answer score of 25 or more.
+          other: 答案分數為25分或以上。
       great_answer:
         name:
-          other: Great Answer
+          other: 很棒的答案
         desc:
-          other: Answer score of 50 or more.
+          other: 答題分數50分以上。
       nice_question:
         name:
           other: 好問題
@@ -759,7 +759,7 @@ backend:
           other: 有 500 次瀏覽量的問題。
       notable_question:
         name:
-          other: Notable Question
+          other: 值得注意的問題
         desc:
           other: 有 1,000 次瀏覽量的問題。
       famous_question:
@@ -776,22 +776,22 @@ backend:
         name:
           other: 熱門連結
         desc:
-          other: Posted an external link with 300 clicks.
+          other: 發布了一個外部鏈接，點擊量達 300 次。
       famous_link:
         name:
-          other: Famous Link
+          other: 著名連結
         desc:
-          other: Posted an external link with 100 clicks.
+          other: 發布了一個有 100 次點擊的外部連結。
     default_badge_groups:
       getting_started:
         name:
           other: 入門
       community:
         name:
-          other: Community
+          other: 社群
       posting:
         name:
-          other: Posting
+          other: 發布
 # The following fields are used for interface presentation(Front-end)
 ui:
   how_to_format:
@@ -828,7 +828,7 @@ ui:
     upgrade: Answer 升級
     maintenance: 網站維護
     users: 用戶
-    oauth_callback: Processing
+    oauth_callback: 處理
     http_404: HTTP 錯誤 404
     http_50X: HTTP 錯誤 500
     http_403: HTTP 錯誤 403
@@ -837,24 +837,24 @@ ui:
     title: 通知
     inbox: 收件夾
     achievement: 成就
-    new_alerts: New alerts
+    new_alerts: 新警報
     all_read: 全部標記為已讀
     show_more: 顯示更多
-    someone: Someone
+    someone: 某人
     inbox_type:
-      all: All
-      posts: Posts
-      invites: Invites
-      votes: Votes
-    answer: Answer
-    question: Question
-    badge_award: Badge
+      all: 全部
+      posts: 貼文
+      invites: 邀請
+      votes: 投票
+    answer: 回答
+    question: 問題
+    badge_award: 徽章
   suspended:
     title: 您的帳號已被停權
     until_time: "你的帳號被停權至{{ time }}。"
     forever: 你的帳號已被永久停權。
     end: 違反了我們的社群準則。
-    contact_us: Contact us
+    contact_us: 聯絡我們
   editor:
     blockquote:
       text: 引用
